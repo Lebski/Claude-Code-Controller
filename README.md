@@ -15,13 +15,40 @@ Transform your PS5 DualSense controller into a powerful navigation and command t
 
 ## 🚀 Installation
 
+### Quick Install (Recommended)
+
+1. **Download the latest release:**
+   - Go to [Releases](https://github.com/yourusername/Claude-Code-Controller/releases/latest)
+   - Download `ClaudeCodeController.zip`
+
+2. **Install the app:**
+   ```bash
+   # Unzip the downloaded file
+   unzip ~/Downloads/ClaudeCodeController.zip
+   
+   # Move to Applications folder
+   mv ClaudeCodev2.app /Applications/
+   ```
+
+3. **First launch (Important!):**
+   - Right-click the app in Applications
+   - Select "Open" from the context menu
+   - Click "Open" in the security dialog
+   - This bypass is only needed once!
+
+4. **Grant permissions:**
+   - Go to System Preferences → Security & Privacy → Privacy
+   - Add Claude Code Controller to:
+     - Accessibility (required for keyboard simulation)
+     - Bluetooth (for controller connection)
+     - Microphone (optional, for voice input)
+
 ### Prerequisites
 - macOS 12.0 or later
-- Xcode 14.0+ (for building from source)
 - PS5 DualSense Controller
 - Bluetooth enabled on your Mac
 
-### Build from Source
+### Build from Source (Alternative)
 
 1. Clone the repository:
 ```bash
@@ -56,6 +83,8 @@ open ClaudeCodev2.xcodeproj
    - Click "Install Custom Claude Commands"
 
 ## 🎮 Controller Mappings
+
+![Controller Layout](ClaudeCodev2/controller_assignement.png)
 
 ### Navigation Controls
 
@@ -149,6 +178,17 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Thanks to the Swift and GameController framework communities
 
 ## 🐛 Troubleshooting
+
+### Installation Issues
+
+**"App is damaged and can't be opened"**
+- This happens because the app isn't signed with Apple's certificate
+- Solution: Right-click → Open (don't double-click)
+- Alternative: Run in Terminal: `xattr -cr /Applications/ClaudeCodev2.app`
+
+**"Claude Code Controller can't be opened because Apple cannot check it for malicious software"**
+- This is expected for free, unsigned software
+- Solution: Right-click the app → Select "Open" → Click "Open" in the dialog
 
 ### Controller Not Connecting
 1. Ensure Bluetooth is enabled
