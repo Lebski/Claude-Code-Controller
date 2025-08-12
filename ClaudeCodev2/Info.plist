@@ -11,7 +11,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>$(PRODUCT_NAME)</string>
+	<string>Claude Code Controller</string>
 	<key>CFBundlePackageType</key>
 	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
 	<key>CFBundleShortVersionString</key>
@@ -21,12 +21,12 @@
 	<key>LSMinimumSystemVersion</key>
 	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
 	<key>NSBluetoothAlwaysUsageDescription</key>
-	<string>ClaudeController needs Bluetooth access to connect to your PS5 DualSense controller for navigation and command input.</string>
+	<string>Claude Code Controller needs Bluetooth access to connect to your PS5 DualSense controller for navigation and command input.</string>
 	<key>NSBluetoothPeripheralUsageDescription</key>
-	<string>ClaudeController uses Bluetooth to communicate with your PS5 DualSense controller.</string>
+	<string>Claude Code Controller uses Bluetooth to communicate with your PS5 DualSense controller.</string>
 	<key>NSSpeechRecognitionUsageDescription</key>
-	<string>ClaudeController uses speech recognition to convert your voice commands into text input when you press the Options button on your controller.</string>
+	<string>Claude Code Controller uses speech recognition to convert your voice commands into text input when you press the Options button on your controller.</string>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>ClaudeController needs microphone access to enable voice-to-text functionality when using the Options button on your controller.</string>
+	<string>Claude Code Controller needs microphone access to enable voice-to-text functionality when using the Options button on your controller.</string>
 </dict>
 </plist>

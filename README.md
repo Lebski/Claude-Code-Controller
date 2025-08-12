@@ -1,8 +1,8 @@
-# ClaudeController 🎮
+# Claude Code Controller 🎮
 
 Transform your PS5 DualSense controller into a powerful navigation and command tool for Claude Code. Navigate and execute commands with gamepad precision.
 
-![ClaudeController Logo](ClaudeCodev2/Assets.xcassets/logo.imageset/logo.png)
+![Claude Code Controller Logo](ClaudeCodev2/Assets.xcassets/logo.imageset/logo.png)
 
 ## ✨ Features
 
@@ -25,8 +25,8 @@ Transform your PS5 DualSense controller into a powerful navigation and command t
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/ClaudeController.git
-cd ClaudeController/ClaudeCodev2
+git clone https://github.com/yourusername/Claude-Code-Controller.git
+cd Claude-Code-Controller/ClaudeCodev2
 ```
 
 2. Open in Xcode:
@@ -51,7 +51,7 @@ open ClaudeCodev2.xcodeproj
    - Click "Connect" when the controller appears
 
 3. **Install Custom Commands**:
-   - Launch ClaudeController
+   - Launch Claude Code Controller
    - Navigate to the Configuration tab
    - Click "Install Custom Claude Commands"
 
