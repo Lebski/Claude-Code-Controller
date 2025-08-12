@@ -32,9 +32,20 @@ Transform your PS5 DualSense controller into a powerful navigation and command t
 
 3. **First launch (Important!):**
    - Right-click the app in Applications
-   - Select "Open" from the context menu
-   - Click "Open" in the security dialog
-   - This bypass is only needed once!
+   - Select "Done" from the context menu
+
+  ⚠️ First Run Note
+
+  Since this is free, community software without Apple's $99/year
+  certificate, macOS will give a warning.
+  This is normal! Just right-click → Open to bypass this
+  one-time warning.
+
+  1. On your Mac, choose Apple menu  > System Settings, then click Privacy & Security  in the sidebar. (You may need to scroll down.)
+  2. Go to Security, then click Open.
+  3. Click Open Anyway.
+  4. This button is available for about an hour after you try to open the app.
+  5. Enter your login password, then click OK.
 
 4. **Grant permissions:**
    - Go to System Preferences → Security & Privacy → Privacy
