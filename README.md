@@ -18,7 +18,7 @@ Transform your PS5 DualSense controller into a powerful navigation and command t
 ### Quick Install (Recommended)
 
 1. **Download the latest release:**
-   - Go to [Releases](https://github.com/yourusername/Claude-Code-Controller/releases/latest)
+   - Go to [Releases](https://github.com/Lebski/Claude-Code-Controller/releases/latest)
    - Download `ClaudeCodeController.zip`
 
 2. **Install the app:**
