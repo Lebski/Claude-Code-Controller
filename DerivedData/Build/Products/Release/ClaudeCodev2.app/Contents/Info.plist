@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>24D60</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>ClaudeCodev2</string>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon</string>
+	<key>CFBundleIconName</key>
+	<string>AppIcon</string>
+	<key>CFBundleIdentifier</key>
+	<string>gotarsi.ClaudeCodev2</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>ClaudeCodev2</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>MacOSX</string>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>24F74</string>
+	<key>DTPlatformName</key>
+	<string>macosx</string>
+	<key>DTPlatformVersion</key>
+	<string>15.5</string>
+	<key>DTSDKBuild</key>
+	<string>24F74</string>
+	<key>DTSDKName</key>
+	<string>macosx15.5</string>
+	<key>DTXcode</key>
+	<string>1640</string>
+	<key>DTXcodeBuild</key>
+	<string>16F6</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>15.3</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>ClaudeController needs Bluetooth access to connect to your PS5 DualSense controller for navigation and command input.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>ClaudeController uses Bluetooth to communicate with your PS5 DualSense controller.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>ClaudeController needs microphone access to enable voice-to-text functionality when using the Options button on your controller.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>ClaudeController uses speech recognition to convert your voice commands into text input when you press the Options button on your controller.</string>
+</dict>
+</plist>

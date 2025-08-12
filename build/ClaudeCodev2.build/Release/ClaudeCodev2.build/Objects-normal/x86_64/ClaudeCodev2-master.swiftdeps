@@ -1,0 +1,14 @@
+version: "Apple Swift version 6.1.2 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)"
+options: "33b885642bfaadf250788b49efdca495e9638e55b45fe41b86cecaa3cb3176b5"
+build_start_time: [1754986137, 317265000]
+build_end_time: [1754986144, 836135000]
+inputs:
+  "/Users/felixleber/Projects/Felix/ClaudeController/ClaudeCodev2/ClaudeCodev2/ClaudeCodev2App.swift": [1754831708, 665271134]
+  "/Users/felixleber/Projects/Felix/ClaudeController/ClaudeCodev2/ClaudeCodev2/ConfigurationView.swift": [1754984881, 918579577]
+  "/Users/felixleber/Projects/Felix/ClaudeController/ClaudeCodev2/ClaudeCodev2/ContentView.swift": [1754985412, 277927044]
+  "/Users/felixleber/Projects/Felix/ClaudeController/ClaudeCodev2/ClaudeCodev2/ControllerManager.swift": [1754984887, 855320611]
+  "/Users/felixleber/Projects/Felix/ClaudeController/ClaudeCodev2/ClaudeCodev2/KeyMapper.swift": [1754986102, 29695080]
+  "/Users/felixleber/Projects/Felix/ClaudeController/ClaudeCodev2/ClaudeCodev2/SpeechRecognizer.swift": [1754986060, 789630774]
+  "/Users/felixleber/Projects/Felix/ClaudeController/ClaudeCodev2/ClaudeCodev2/SpeechView.swift": [1754985868, 659102841]
+  ? "/Users/felixleber/Projects/Felix/ClaudeController/ClaudeCodev2/build/ClaudeCodev2.build/Release/ClaudeCodev2.build/DerivedSources/GeneratedAssetSymbols.swift"
+  : [1754986135, 747616596]

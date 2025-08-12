@@ -1,0 +1,50 @@
+{
+  "" : {
+    "const-values" : "/Users/felixleber/Projects/Felix/ClaudeController/ClaudeCodev2/DerivedData/Build/Intermediates.noindex/ClaudeCodev2.build/Release/ClaudeCodev2.build/Objects-normal/arm64/ClaudeCodev2-master.swiftconstvalues",
+    "dependencies" : "/Users/felixleber/Projects/Felix/ClaudeController/ClaudeCodev2/DerivedData/Build/Intermediates.noindex/ClaudeCodev2.build/Release/ClaudeCodev2.build/Objects-normal/arm64/ClaudeCodev2-master.d",
+    "diagnostics" : "/Users/felixleber/Projects/Felix/ClaudeController/ClaudeCodev2/DerivedData/Build/Intermediates.noindex/ClaudeCodev2.build/Release/ClaudeCodev2.build/Objects-normal/arm64/ClaudeCodev2-master.dia",
+    "emit-module-dependencies" : "/Users/felixleber/Projects/Felix/ClaudeController/ClaudeCodev2/DerivedData/Build/Intermediates.noindex/ClaudeCodev2.build/Release/ClaudeCodev2.build/Objects-normal/arm64/ClaudeCodev2-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/felixleber/Projects/Felix/ClaudeController/ClaudeCodev2/DerivedData/Build/Intermediates.noindex/ClaudeCodev2.build/Release/ClaudeCodev2.build/Objects-normal/arm64/ClaudeCodev2-master-emit-module.dia",
+    "swift-dependencies" : "/Users/felixleber/Projects/Felix/ClaudeController/ClaudeCodev2/DerivedData/Build/Intermediates.noindex/ClaudeCodev2.build/Release/ClaudeCodev2.build/Objects-normal/arm64/ClaudeCodev2-master.swiftdeps"
+  },
+  "/Users/felixleber/Projects/Felix/ClaudeController/ClaudeCodev2/ClaudeCodev2/ClaudeCodev2App.swift" : {
+    "index-unit-output-path" : "/ClaudeCodev2.build/Release/ClaudeCodev2.build/Objects-normal/arm64/ClaudeCodev2App.o",
+    "llvm-bc" : "/Users/felixleber/Projects/Felix/ClaudeController/ClaudeCodev2/DerivedData/Build/Intermediates.noindex/ClaudeCodev2.build/Release/ClaudeCodev2.build/Objects-normal/arm64/ClaudeCodev2App.bc",
+    "object" : "/Users/felixleber/Projects/Felix/ClaudeController/ClaudeCodev2/DerivedData/Build/Intermediates.noindex/ClaudeCodev2.build/Release/ClaudeCodev2.build/Objects-normal/arm64/ClaudeCodev2App.o"
+  },
+  "/Users/felixleber/Projects/Felix/ClaudeController/ClaudeCodev2/ClaudeCodev2/ConfigurationView.swift" : {
+    "index-unit-output-path" : "/ClaudeCodev2.build/Release/ClaudeCodev2.build/Objects-normal/arm64/ConfigurationView.o",
+    "llvm-bc" : "/Users/felixleber/Projects/Felix/ClaudeController/ClaudeCodev2/DerivedData/Build/Intermediates.noindex/ClaudeCodev2.build/Release/ClaudeCodev2.build/Objects-normal/arm64/ConfigurationView.bc",
+    "object" : "/Users/felixleber/Projects/Felix/ClaudeController/ClaudeCodev2/DerivedData/Build/Intermediates.noindex/ClaudeCodev2.build/Release/ClaudeCodev2.build/Objects-normal/arm64/ConfigurationView.o"
+  },
+  "/Users/felixleber/Projects/Felix/ClaudeController/ClaudeCodev2/ClaudeCodev2/ContentView.swift" : {
+    "index-unit-output-path" : "/ClaudeCodev2.build/Release/ClaudeCodev2.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/felixleber/Projects/Felix/ClaudeController/ClaudeCodev2/DerivedData/Build/Intermediates.noindex/ClaudeCodev2.build/Release/ClaudeCodev2.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/felixleber/Projects/Felix/ClaudeController/ClaudeCodev2/DerivedData/Build/Intermediates.noindex/ClaudeCodev2.build/Release/ClaudeCodev2.build/Objects-normal/arm64/ContentView.o"
+  },
+  "/Users/felixleber/Projects/Felix/ClaudeController/ClaudeCodev2/ClaudeCodev2/ControllerManager.swift" : {
+    "index-unit-output-path" : "/ClaudeCodev2.build/Release/ClaudeCodev2.build/Objects-normal/arm64/ControllerManager.o",
+    "llvm-bc" : "/Users/felixleber/Projects/Felix/ClaudeController/ClaudeCodev2/DerivedData/Build/Intermediates.noindex/ClaudeCodev2.build/Release/ClaudeCodev2.build/Objects-normal/arm64/ControllerManager.bc",
+    "object" : "/Users/felixleber/Projects/Felix/ClaudeController/ClaudeCodev2/DerivedData/Build/Intermediates.noindex/ClaudeCodev2.build/Release/ClaudeCodev2.build/Objects-normal/arm64/ControllerManager.o"
+  },
+  "/Users/felixleber/Projects/Felix/ClaudeController/ClaudeCodev2/ClaudeCodev2/KeyMapper.swift" : {
+    "index-unit-output-path" : "/ClaudeCodev2.build/Release/ClaudeCodev2.build/Objects-normal/arm64/KeyMapper.o",
+    "llvm-bc" : "/Users/felixleber/Projects/Felix/ClaudeController/ClaudeCodev2/DerivedData/Build/Intermediates.noindex/ClaudeCodev2.build/Release/ClaudeCodev2.build/Objects-normal/arm64/KeyMapper.bc",
+    "object" : "/Users/felixleber/Projects/Felix/ClaudeController/ClaudeCodev2/DerivedData/Build/Intermediates.noindex/ClaudeCodev2.build/Release/ClaudeCodev2.build/Objects-normal/arm64/KeyMapper.o"
+  },
+  "/Users/felixleber/Projects/Felix/ClaudeController/ClaudeCodev2/ClaudeCodev2/SpeechRecognizer.swift" : {
+    "index-unit-output-path" : "/ClaudeCodev2.build/Release/ClaudeCodev2.build/Objects-normal/arm64/SpeechRecognizer.o",
+    "llvm-bc" : "/Users/felixleber/Projects/Felix/ClaudeController/ClaudeCodev2/DerivedData/Build/Intermediates.noindex/ClaudeCodev2.build/Release/ClaudeCodev2.build/Objects-normal/arm64/SpeechRecognizer.bc",
+    "object" : "/Users/felixleber/Projects/Felix/ClaudeController/ClaudeCodev2/DerivedData/Build/Intermediates.noindex/ClaudeCodev2.build/Release/ClaudeCodev2.build/Objects-normal/arm64/SpeechRecognizer.o"
+  },
+  "/Users/felixleber/Projects/Felix/ClaudeController/ClaudeCodev2/ClaudeCodev2/SpeechView.swift" : {
+    "index-unit-output-path" : "/ClaudeCodev2.build/Release/ClaudeCodev2.build/Objects-normal/arm64/SpeechView.o",
+    "llvm-bc" : "/Users/felixleber/Projects/Felix/ClaudeController/ClaudeCodev2/DerivedData/Build/Intermediates.noindex/ClaudeCodev2.build/Release/ClaudeCodev2.build/Objects-normal/arm64/SpeechView.bc",
+    "object" : "/Users/felixleber/Projects/Felix/ClaudeController/ClaudeCodev2/DerivedData/Build/Intermediates.noindex/ClaudeCodev2.build/Release/ClaudeCodev2.build/Objects-normal/arm64/SpeechView.o"
+  },
+  "/Users/felixleber/Projects/Felix/ClaudeController/ClaudeCodev2/DerivedData/Build/Intermediates.noindex/ClaudeCodev2.build/Release/ClaudeCodev2.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/ClaudeCodev2.build/Release/ClaudeCodev2.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/felixleber/Projects/Felix/ClaudeController/ClaudeCodev2/DerivedData/Build/Intermediates.noindex/ClaudeCodev2.build/Release/ClaudeCodev2.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/felixleber/Projects/Felix/ClaudeController/ClaudeCodev2/DerivedData/Build/Intermediates.noindex/ClaudeCodev2.build/Release/ClaudeCodev2.build/Objects-normal/arm64/GeneratedAssetSymbols.o"
+  }
+}

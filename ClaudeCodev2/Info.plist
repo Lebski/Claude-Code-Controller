@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>ClaudeController needs Bluetooth access to connect to your PS5 DualSense controller for navigation and command input.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>ClaudeController uses Bluetooth to communicate with your PS5 DualSense controller.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>ClaudeController uses speech recognition to convert your voice commands into text input when you press the Options button on your controller.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>ClaudeController needs microphone access to enable voice-to-text functionality when using the Options button on your controller.</string>
+</dict>
+</plist>

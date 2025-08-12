@@ -1,0 +1,224 @@
+{
+  "source": "/Users/felixleber/Projects/Felix/ClaudeController/ClaudeCodev2/ClaudeCodev2/SpeechView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Speech Recognition Settings",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 19
+        }
+      },
+      {
+        "comment": "",
+        "key": "Configure microphone and speech recognition for voice commands",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 23
+        }
+      },
+      {
+        "comment": "",
+        "key": "Permissions",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 32
+        }
+      },
+      {
+        "comment": "",
+        "key": "Request Permission",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 52
+        }
+      },
+      {
+        "comment": "",
+        "key": "Microphone Access",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 42
+        }
+      },
+      {
+        "comment": "",
+        "key": "Request Permission",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 79
+        }
+      },
+      {
+        "comment": "",
+        "key": "Speech Recognition",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 69
+        }
+      },
+      {
+        "comment": "",
+        "key": "Recognition Settings",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 94
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cloud recognition is more accurate but requires internet. On-device recognition works offline but may have lower accuracy.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 100
+        }
+      },
+      {
+        "comment": "",
+        "key": "Use Cloud Recognition (requires internet)",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 97
+        }
+      },
+      {
+        "comment": "",
+        "key": "Microphone Selection",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 113
+        }
+      },
+      {
+        "comment": "",
+        "key": "Selected: %@",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 135
+        }
+      },
+      {
+        "comment": "",
+        "key": "Select Microphone",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 119
+        }
+      },
+      {
+        "comment": "",
+        "key": "Refresh",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 128
+        }
+      },
+      {
+        "comment": "",
+        "key": "System Default",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 120
+        }
+      },
+      {
+        "comment": "",
+        "key": "Speech Recognition Test",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 149
+        }
+      },
+      {
+        "comment": "",
+        "key": "Recording",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 162
+        }
+      },
+      {
+        "comment": "",
+        "key": "Audio Level",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 171
+        }
+      },
+      {
+        "comment": "",
+        "key": "Stop Recording",
+        "location": {
+          "startingColumn": 77,
+          "startingLine": 193
+        }
+      },
+      {
+        "comment": "",
+        "key": "Start Test",
+        "location": {
+          "startingColumn": 96,
+          "startingLine": 193
+        }
+      },
+      {
+        "comment": "",
+        "key": "Clear",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 199
+        }
+      },
+      {
+        "comment": "",
+        "key": "Transcription:",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 218
+        }
+      },
+      {
+        "comment": "",
+        "key": "Tips:",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 245
+        }
+      },
+      {
+        "comment": "",
+        "key": "• Press the Square (□) button on your controller to activate voice input",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 249
+        }
+      },
+      {
+        "comment": "",
+        "key": "• Speak clearly and wait a moment for the transcription to complete",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 250
+        }
+      },
+      {
+        "comment": "",
+        "key": "• The transcribed text will be typed automatically in the active application",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 251
+        }
+      },
+      {
+        "comment": "",
+        "key": "• Green audio level indicates good input volume",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 252
+        }
+      }
+    ]
+  },
+  "version": 1
+}
