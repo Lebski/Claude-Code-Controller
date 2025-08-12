@@ -11,7 +11,6 @@ Transform your PS5 DualSense controller into a powerful navigation and command t
 - **🎙️ Voice Input**: Speech-to-text integration for natural language commands
 - **📊 Real-time Feedback**: Visual button state indicators and connection status
 - **🔧 Custom Commands**: Install and manage custom Claude command shortcuts
-- **💡 DualSense Integration**: Full haptic feedback and light bar support
 
 ## 🚀 Installation
 
