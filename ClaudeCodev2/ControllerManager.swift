@@ -2,6 +2,7 @@ import Cocoa
 import GameController
 import SwiftUI
 import Speech
+import CoreHaptics
 
 class ControllerManager: NSObject, ObservableObject {
     
@@ -21,6 +22,47 @@ class ControllerManager: NSObject, ObservableObject {
         super.init()
         setupControllerNotifications()
         setupAccessibilityNotifications()
+    }
+    
+    // Light bar color control
+    func setLightBarColor(red: Float, green: Float, blue: Float) {
+        guard let controller = controller,
+              let light = controller.light else { return }
+        
+        light.color = GCColor(red: red, green: green, blue: blue)
+    }
+    
+    // Haptic feedback
+    func triggerHapticFeedback(intensity: Float = 0.5, duration: TimeInterval = 0.1) {
+        guard let controller = controller,
+              let haptics = controller.haptics else { return }
+        
+        // Create haptic engine if available
+        if let engine = haptics.createEngine(withLocality: .default) {
+            do {
+                // Create a simple haptic pattern
+                let pattern = try CHHapticPattern(events: [
+                    CHHapticEvent(eventType: .hapticContinuous,
+                                 parameters: [
+                                    CHHapticEventParameter(parameterID: .hapticIntensity, value: intensity),
+                                    CHHapticEventParameter(parameterID: .hapticSharpness, value: 0.5)
+                                 ],
+                                 relativeTime: 0,
+                                 duration: duration)
+                ], parameters: [])
+                
+                let player = try engine.makePlayer(with: pattern)
+                try engine.start()
+                try player.start(atTime: 0)
+                
+                // Stop engine after the duration
+                DispatchQueue.main.asyncAfter(deadline: .now() + duration + 0.1) {
+                    engine.stop()
+                }
+            } catch {
+                print("Failed to play haptic: \(error)")
+            }
+        }
     }
     
     func startMonitoring() {
@@ -96,6 +138,8 @@ class ControllerManager: NSObject, ObservableObject {
             setupControllerInput(controller)
             updateStatus("DualSense Connected")
             isConnected = true
+            // Set initial light color to blue
+            setLightBarColor(red: 0.0, green: 0.0, blue: 1.0)
             print("DualSense controller connected")
         }
     }
@@ -180,10 +224,16 @@ class ControllerManager: NSObject, ObservableObject {
                     // If currently recording, stop recording (text will be sent automatically)
                     print("🎤 SPEECH: Square button pressed - stopping recording")
                     self?.speechRecognizer.stopRecording()
+                    // Reset light to default blue and give haptic feedback
+                    self?.setLightBarColor(red: 0.0, green: 0.0, blue: 1.0)
+                    self?.triggerHapticFeedback(intensity: 0.3, duration: 0.1)
                 } else {
                     // If not recording, start recording
                     print("🎤 SPEECH: Square button pressed - starting speech recognition")
                     self?.speechRecognizer.startRecording()
+                    // Set light to red to indicate recording and give haptic feedback
+                    self?.setLightBarColor(red: 1.0, green: 0.0, blue: 0.0)
+                    self?.triggerHapticFeedback(intensity: 0.5, duration: 0.2)
                 }
             }
         }
