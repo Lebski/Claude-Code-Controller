@@ -1,6 +1,6 @@
 # ClaudeController 🎮
 
-Transform your PS5 DualSense controller into a powerful navigation and command tool for Claude Code. Navigate, execute commands, and switch between profiles with gamepad precision.
+Transform your PS5 DualSense controller into a powerful navigation and command tool for Claude Code. Navigate and execute commands with gamepad precision.
 
 ![ClaudeController Logo](ClaudeCodev2/Assets.xcassets/logo.imageset/logo.png)
 
@@ -8,10 +8,10 @@ Transform your PS5 DualSense controller into a powerful navigation and command t
 
 - **🎯 Precise Navigation**: Use D-Pad for arrow key navigation in Claude Code
 - **⚡ Quick Commands**: Execute Claude commands instantly with button combos
-- **🎨 Profile System**: 3 switchable profiles with color-coded feedback via DualSense light bar
 - **🎙️ Voice Input**: Speech-to-text integration for natural language commands
 - **📊 Real-time Feedback**: Visual button state indicators and connection status
 - **🔧 Custom Commands**: Install and manage custom Claude command shortcuts
+- **💡 DualSense Integration**: Full haptic feedback and light bar support
 
 ## 🚀 Installation
 
@@ -57,7 +57,7 @@ open ClaudeCodev2.xcodeproj
 
 ## 🎮 Controller Mappings
 
-### Universal Controls (All Profiles)
+### Navigation Controls
 
 | Button | Action |
 |--------|--------|
@@ -66,26 +66,26 @@ open ClaudeCodev2.xcodeproj
 | **Cross (✕)** | Escape/Cancel |
 | **Triangle (△)** | Auto-accept (Cmd+Enter) |
 | **Square (□)** | Type `/` for commands |
-| **Left Stick** | Mouse movement (when implemented) |
+| **Left Stick** | Additional navigation |
 | **Right Stick** | Scroll navigation |
-| **PS Button** | Show/Hide app |
 
-### Profile-Specific Commands
+### Command Buttons
 
-| Profile | Color | L1 | R1 | R2 |
-|---------|-------|----|----|-----|
-| **Profile 1** | 🔵 Blue | `/init` | `/review` | `/test` |
-| **Profile 2** | 🟢 Green | `/init` | `/review` | `/securitycheck` |
-| **Profile 3** | 🔴 Red | `/init` | `/review` | `/documentation` |
+| Button | Command |
+|--------|---------|
+| **L1** | `/init` - Initialize Claude in current directory |
+| **R1** | `/review` - Request code review |
+| **R2** | `/test` - Run tests |
+| **L2** | `/securitycheck` - Security analysis |
 
 ### Special Functions
 
 | Control | Action |
 |---------|--------|
-| **L2 (Hold)** | Switch profiles (cycles through 1→2→3→1) |
 | **Options** | Settings/Configuration |
-| **Share** | Screenshot (when implemented) |
+| **Share** | Toggle features |
 | **Touchpad Press** | Toggle voice input |
+| **PS Button** | System functions |
 
 ## 📱 App Interface
 
@@ -93,8 +93,8 @@ The app features a clean SwiftUI interface with two main tabs:
 
 ### Controller Tab
 - Real-time button state visualization
-- Current profile indicator with color coding
-- Active profile's command mappings
+- Active button highlighting
+- Command mappings display
 - Connection status with helpful instructions
 
 ### Status Tab
@@ -117,12 +117,6 @@ The app can install helpful Claude commands to your shell configuration:
 
 These commands are automatically added to your shell profile (`~/.zshrc` or `~/.bash_profile`).
 
-### Profile Customization
-
-Each profile can be customized for different workflows:
-- **Profile 1 (Blue)**: General development
-- **Profile 2 (Green)**: Security-focused development
-- **Profile 3 (Red)**: Documentation and review
 
 ## 🏗️ Architecture
 
